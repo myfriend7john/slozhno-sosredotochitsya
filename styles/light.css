@@ -1,3 +1,24 @@
+@media (prefers-color-scheme: light) {
+  :root {
+      --page-title-color: #ffc2e6;
+      --page-title-color-shadow: #ff0070;
+      --title-color: #353430;
+      --title-decor-color: #ff8dcb;
+      --section-title-color: var(--title-color);
+      --section-text-color: #353430;
+      --link-shadow-color: var(--page-decor-color);
+      --background-color: #fff1f7;
+      --background-image: url("../images/cover-image-light.png");
+      --decorated-zone-color: var(--page-title-color-shadow);
+      --decorated-zone-text-color:var(--background-color);
+      --border-style: 1px solid rgba(53,52,48.1);
+      --border-style__hover: 1px solid rgba(50, 49, 45, 0.4);
+      --button-text-color: var(--title-color);
+      --link-border: 1px solid var(--section-text-color);
+  }
+  
+}
+
 .page.theme_light {
   --page-title-color: #ffc2e6;
   --page-title-color-shadow: #ff0070;
@@ -14,5 +35,4 @@
   --border-style__hover: 1px solid rgba(50, 49, 45, 0.4);
   --button-text-color: var(--title-color);
   --link-border: 1px solid var(--section-text-color);
-
 }
